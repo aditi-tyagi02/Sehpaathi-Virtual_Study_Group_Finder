@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sehpaathi Virtual Study Group Finder</title>
+</head>
+<body>
+    <header>
+        <h1>Sehpaathi- Virtual Study Group Finder</h1>
+    </header>
+    <main>
+        <section class="profile-section">
+            <h2>Create Your Profile</h2>
+            <br>
+            <div>
+                <form id="profile-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="expertise">Expertise:</label>
+                    <input type="text" id="expertise" name="expertise" required>
+                    <label for="preferences">Study Preferences:</label>
+                    <textarea id="preferences" name="preferences" required></textarea>
+                    <button type="submit">Create Profile</button>
+                </form>
+
+            </div>
+            
+        </section>
+        <section class="group-section">
+            <h2>Find Study Groups</h2><br>
+            <div class="group-card">
+                <h3>Group 1</h3>
+                <br>
+                <p>Subject: Maths</p>
+                <br>
+                <label for="members-dropdown">Members:</label>
+        <select id="members-dropdown">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <button class="join-button" id="join-button">Join Group</button>
+            </div>
+            <div class="group-card">
+                <h3> Group 2</h3>
+                <br>
+                <p>Subject: Chemistry</p>
+                <br>
+                <label for="members-dropdown">Members:</label>
+        <select id="members-dropdown">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <button class="join-button" id="join-button">Join Group</button>
+            </div>
+            <div class="group-card">
+                <h3>Group 3</h3>
+                <br>
+                <p>Subject: Physics</p>
+                <br>
+                <label for="members-dropdown">Members:</label>
+        <select id="members-dropdown">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <button class="join-button" id="join-button">Join Group</button>
+    </div>
+            </div>
+            <div class="group-card">
+                <h3>Group 4</h3>
+                <br>
+                <p>Subject: English</p>
+                <br>
+                <label for="members-dropdown">Members:</label>
+        <select id="members-dropdown">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <button class="join-button" id="join-button">Join Group</button>
+            </div>
+            <!-- More group cards can be added here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sehpaathi Virtual Study Group Finder</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
